@@ -1,4 +1,6 @@
-aiohttp
-fake_useragent
-pyyaml
+tls-client
+fake-useragent
 colorama
+pyyaml
+concurrent
+typing_extensions
