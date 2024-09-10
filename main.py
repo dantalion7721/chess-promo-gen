@@ -31,8 +31,6 @@ class Chess:
         )
 
         if res.status_code != 200:
-
-            print(f"{Fore.RED}Failed to get uuid{Fore.RESET}")
             return False
 
         uuid = res.text.split('data-user-uuid="')[1].split('"')[0]
