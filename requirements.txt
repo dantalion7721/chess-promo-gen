@@ -1,0 +1,4 @@
+aiohttp
+fake_useragent
+pyyaml
+colorama
