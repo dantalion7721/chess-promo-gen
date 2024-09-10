@@ -33,7 +33,6 @@ class Chess:
                 ) as res:
                     
                     if res.status != 200:
-                        print(f"{Fore.RED}Failed to get uuid{Fore.RESET}")
                         return False
 
                     text = await res.text()
