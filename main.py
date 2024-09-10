@@ -53,8 +53,8 @@ class Chess:
                 f.write(code+'\n')
 
         except Exception as e:
+            pass
 
-            print(f"{Fore.RED}Failed to fetch promo code! {e}{Fore.RESET}")
 
 
 
